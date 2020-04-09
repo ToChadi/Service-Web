@@ -21,7 +21,13 @@
 	<div>
 		Product Cat :<%= p.getProductCatg()%></div>
 	<div>
-		Product Search : <%= p1 %>
+		Product Search : 
+      <form action = "main.jsp" method = "POST">
+         Libelle: <input type = "text" name = "libelle">
+         <br />
+         Last Name: <input type = "text" name = "category" />
+         <input type = "submit" value = "Submit" />
+      </form>
 	</div>
 </body>
 </html>
